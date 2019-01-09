@@ -4,6 +4,13 @@ div {
 a {
 	margin-left: 45px;
 }
+h2 {
+	text-decoration: underline;
+}
+h3 {
+	text-decoration: underline;
+}
+
 a:link {
 	color: #d00b0b;
 	text-decoration: underline;
