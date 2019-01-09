@@ -1,5 +1,8 @@
 div {
-  text-align: center;
+ 	margin-left: 40px;
+}
+a {
+	margin-left: 50px;
 }
 a:link {
 	color: #d00b0b;
