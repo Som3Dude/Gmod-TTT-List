@@ -2,8 +2,17 @@ body {
 	background-color: #121212;
 	color: #FFFFFF;
 }
-div {
+.Weapons {
  	margin-left: 50px;
+}
+.Maps {
+ 	margin-left: 50px;
+}
+.Other {
+ 	margin-left: 50px;
+}
+.Logo {
+	float: right;
 }
 a {
 	margin-left: 20px;
