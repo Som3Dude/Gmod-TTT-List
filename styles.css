@@ -2,19 +2,19 @@ body {
 	background-color: #121212;
 	color: #FFFFFF;
 }
-.Logo {
+#Logo {
 	float: right;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 10px;
 }
-.Weapons {
+#Weapons {
  	margin-left: 50px;
 }
-.Maps {
+#Maps {
  	margin-left: 50px;
 }
-.Other {
+#Other {
  	margin-left: 50px;
 }
 a {
