@@ -8,3 +8,18 @@ function PlayerTwo() {
   document.getElementById("detectives").innerHTML = "Detectives: Error";
   document.getElementById("innocents").innerHTML = "Innocents: 1";
 }
+function PlayerThree() {
+  document.getElementById("traitors").innerHTML = "Traitors: 1";
+  document.getElementById("detectives").innerHTML = "Detectives: Error";
+  document.getElementById("innocents").innerHTML = "Innocents: 2";
+}
+function PlayerFour() {
+  document.getElementById("traitors").innerHTML = "Traitors: 1";
+  document.getElementById("detectives").innerHTML = "Detectives: Error";
+  document.getElementById("innocents").innerHTML = "Innocents: 3";
+}
+function PlayerFive() {
+  document.getElementById("traitors").innerHTML = "Traitors: 2";
+  document.getElementById("detectives").innerHTML = "Detectives: 1";
+  document.getElementById("innocents").innerHTML = "Innocents: 2";
+}
