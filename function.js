@@ -1,6 +1,6 @@
-var Detectives = document.getelementById("detectives");
-var Traitors = document.getelementById("traitors");
-var Innocents = document.getelementById("innocents");
+var Detectives = document.getElementById("detectives");
+var Traitors = document.getElementById("traitors");
+var Innocents = document.getElementById("innocents");
 
 function 1Player() {
   Traitors.innerHTML = "Traitors: Error";
