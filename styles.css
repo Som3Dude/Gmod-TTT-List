@@ -55,11 +55,11 @@ a:active {
 	color: #00FF00;
 }
 
-#secret_text {
+.BootUp_Button {
 	border: none;
 	float: right;
 	color: #121212;
 }
-#secret_text:hover {
+.BootUp_Button:hover {
 	color: #454545;
 }
