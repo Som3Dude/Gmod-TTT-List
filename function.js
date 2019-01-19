@@ -44,4 +44,6 @@ function BootUp() {
   document.getElementById("Weapons").style.display = "none";
   document.getElementById("Maps").style.display = "none";
   document.getElementById("Other").style.display = "none";
+  document.getElementById("Calculator").style.display = "none";
+  document.getElementById("secret").style.display = "none";
 }
