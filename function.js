@@ -38,3 +38,10 @@ function PlayerEight() {
   document.getElementById("detectives").innerHTML = "Detectives: 1";
   document.getElementById("innocents").innerHTML = "Innocents: 4";
 }
+
+function BootUp() {
+  document.getElementById("Logo").style.display = "none";
+  document.getElementById("Weapons").style.display = "none";
+  document.getElementById("Maps").style.display = "none";
+  document.getElementById("Other").style.display = "none";
+}
