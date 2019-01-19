@@ -44,3 +44,13 @@ a:active {
 	color: #2c69ea;
 	text-decoration: none;
 }
+
+#traitors {
+	color: #FF0000;
+}
+#detectives {
+	color: #0000FF;
+}
+#innocents {
+	color: #00FF00;
+}
