@@ -59,6 +59,7 @@ a:active {
 	border: none;
 	float: right;
 	color: #121212;
+	background-color: inherit;
 }
 .BootUp_Button:hover {
 	color: #454545;
