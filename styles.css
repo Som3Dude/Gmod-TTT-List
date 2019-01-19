@@ -56,5 +56,9 @@ a:active {
 }
 
 #secret_text {
+	float: right;
 	color: #121212;
+}
+#secret_text:hover {
+	color: #454545;
 }
