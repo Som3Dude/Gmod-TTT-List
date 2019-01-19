@@ -23,3 +23,18 @@ function PlayerFive() {
   document.getElementById("detectives").innerHTML = "Detectives: 1";
   document.getElementById("innocents").innerHTML = "Innocents: 2";
 }
+function PlayerSix() {
+  document.getElementById("traitors").innerHTML = "Traitors: 2";
+  document.getElementById("detectives").innerHTML = "Detectives: 1";
+  document.getElementById("innocents").innerHTML = "Innocents: 3";
+}
+function PlayerSeven() {
+  document.getElementById("traitors").innerHTML = "Traitors: 2";
+  document.getElementById("detectives").innerHTML = "Detectives: 1";
+  document.getElementById("innocents").innerHTML = "Innocents: 4";
+}
+function PlayerEight() {
+  document.getElementById("traitors").innerHTML = "Traitors: 3";
+  document.getElementById("detectives").innerHTML = "Detectives: 1";
+  document.getElementById("innocents").innerHTML = "Innocents: 4";
+}
