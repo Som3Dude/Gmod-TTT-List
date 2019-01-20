@@ -46,4 +46,20 @@ function BootUp() {
   document.getElementById("Other").style.display = "none";
   document.getElementById("Calculator").style.display = "none";
   document.getElementById("secret").style.display = "none";
+  document.getElementById("nonmain").style.display = "block";
+  var bar = document.getElementById("Bar1Inner");
+  var counter = setInterval(BootUpBar, 16);
+  var progress = 1;
+  function BootUpBar() {
+		if (progress >= 340) {
+			clearInterval(counter);
+		}
+		else {
+			progress++;
+			bar.style.width = progress + 'px';
+		}
+		if(progress == 340) {
+			document.getElementById("Bar1Outer").style.display = "none";
+		}
+	}
 }
