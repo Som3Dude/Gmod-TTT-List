@@ -82,3 +82,6 @@ a:active {
 	background-color: #272727;
 	z-index: 3;
 }
+#Screen {
+	display: none;
+}
