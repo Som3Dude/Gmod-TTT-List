@@ -64,3 +64,18 @@ a:active {
 .BootUp_Button:hover {
 	color: #454545;
 }
+
+#Bar1Outer {
+	width: 340px;
+	height: 30px;
+	padding: 3px;
+	border-radius: 13px;
+	background-color: #FFFFFF;
+}
+#Bar1Inner {
+	width: 0px;
+	height: 30px;
+	border-radius: 13px;
+	background-color: #272727;
+	z-index: 3;
+}
