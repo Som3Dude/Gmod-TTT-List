@@ -53,13 +53,12 @@ function BootUp() {
   function BootUpBar() {
 		if (progress >= 340) {
 			clearInterval(counter);
+			document.getElementById("Bar1Outer").style.display = "none";
+			document.getElementById("Screen").style.display = "block";
 		}
 		else {
 			progress++;
 			bar.style.width = progress + 'px';
-		}
-		if(progress == 340) {
-			document.getElementById("Bar1Outer").style.display = "none";
 		}
 	}
 }
