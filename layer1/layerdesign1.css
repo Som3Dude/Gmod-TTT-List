@@ -3,6 +3,11 @@ body {
 	color: #FFFFFF;
 }
 
+#greeting {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
 .Name_Input {
 	width: 20%;
 }
