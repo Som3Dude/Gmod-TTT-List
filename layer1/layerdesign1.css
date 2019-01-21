@@ -4,9 +4,7 @@ body {
 }
 
 #greeting {
-	margin: 0 auto;
-	left: 0;
-	right: 0;
+	align: middle;
 }
 .Name_Input {
 	width: 20%;
