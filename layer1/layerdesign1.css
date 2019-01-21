@@ -9,6 +9,6 @@ body {
 	left: 0;
 	right: 0;
 }
-#NameForm {
-	width:250px;
+.Name_Input {
+	width:175px;
 }
