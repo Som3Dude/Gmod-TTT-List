@@ -13,9 +13,9 @@ function SendName() {
 setInterval( updateClock, 1000 );
 function updateClock() {
 	var rawtime = new Date();
-	var hours = d.getHours();
-	var minutes = d.getMinutes();
-	var seconds = d.getSeconds();
+	var hours = rawtime.getHours();
+	var minutes = rawtime.getMinutes();
+	var seconds = rawtime.getSeconds();
 	var AMPM = "";
 	if (hours == 0) {
 		AMPM = " AM"; hours = 12;}
