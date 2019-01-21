@@ -1,10 +1,12 @@
 body {
-	background-color: #343434;
+	background-color: #2C2C2C;
 	color: #FFFFFF;
 }
 
 #greeting {
-	align: middle;
+	position: absolute;
+	left: 50%;
+	top: 20%;
 }
 .Name_Input {
 	width: 20%;
