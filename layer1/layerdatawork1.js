@@ -10,3 +10,8 @@ function SendName() {
 		document.getElementById("denied").style.display = "block";
 	}
 }
+setInterval( updateClock, 200 );
+function updateClock() {
+	var rawtime = new Date();
+	document.getElementById("clock").innerHTML = "The current time is<br>"+d.getHours() + d.getMinutes() + d.getSeconds();
+}
