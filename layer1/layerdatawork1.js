@@ -18,7 +18,8 @@ function updateClock() {
 	var seconds = rawtime.getSeconds();
 	var AMPM = "";
 	if (hours == 0) {
-		AMPM = "AM"; hours = 12;
+		AMPM = "AM";
+		hours = 12;
 	}
 	else if (hours < 12) {
 		AMPM = "AM";
@@ -27,9 +28,13 @@ function updateClock() {
 		AMPM = "PM";
 	}
 	else if (hours > 12) {
-		AMPM = "PM"; hours -= 12;
+		AMPM = "PM";
+		hours -= 12;
 	}
 	
+	if (minutes < 10) {
+		minutes = "0" + minutes;
+	}
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
