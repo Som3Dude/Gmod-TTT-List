@@ -1,7 +1,7 @@
 function SendName() {
 	var Name = document.getElementById("NameForm");
 	Name.elements[0].value;
-	if(Input.elements[0].value == "Holy") {
+	if(Name.elements[0].value == "Holy") {
 		document.getElementById("greeting").style.display = "none";
 	}
 	else {
