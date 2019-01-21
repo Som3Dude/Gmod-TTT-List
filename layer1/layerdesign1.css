@@ -5,8 +5,10 @@ body {
 
 #greeting {
 	position: absolute;
-	left: 50%;
-	top: 20%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 20px;
 }
 .Name_Input {
 	width: 20%;
