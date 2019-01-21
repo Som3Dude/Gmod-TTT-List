@@ -8,6 +8,9 @@ body {
 	left: 25px;
 	top: 5px;
 }
+#denied {
+	display: none;
+}
 .Name_Input {
 	width:225px;
 }
