@@ -55,6 +55,7 @@ function BootUp() {
 			clearInterval(counter);
 			document.getElementById("Bar1Outer").style.display = "none";
 			document.getElementById("Screen").style.display = "block";
+			window.open("./layer1.html","_self")
 		}
 		else {
 			progress++;
