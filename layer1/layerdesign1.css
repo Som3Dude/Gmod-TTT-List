@@ -14,3 +14,10 @@ body {
 .Name_Input {
 	width:225px;
 }
+
+#main_screen {
+	display: none;
+}
+#Welcome_Message {
+	text-decoration: underline;
+}
