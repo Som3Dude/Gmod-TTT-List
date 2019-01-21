@@ -1,3 +1,4 @@
+var Userclass = "Entry Denied";
 function SendName() {
 	var Name = document.getElementById("NameForm");
 	Name.elements[0].value;
@@ -5,7 +6,21 @@ function SendName() {
 		document.getElementById("greeting").style.display = "none";
 		document.getElementById("main_screen").style.display = "block";
 		document.getElementById("Welcome_Message").innerHTML = "Welcome "+Name.elements[0].value;
+		if (Name.elements[0].value.toLowerCase() == "holy") {
+			Userclass = "Administrator";
+		}
+		else if ( (Name.elements[0].value.toLowerCase() == "fenister") || (Name.elements[0].value.toLowerCase() == "manu") ) {
+			Userclass = "User";
+		}
+		
+		if (Userclass = "Administrator") {
+			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+"<br><br><u>Current Tasks:</u><br>-Give out Userpasswords.<br>-Finish Layer1";
+		}
+		if (Userclass = "User") {
+			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.";
+		}
 	}
+	
 	else {
 		document.getElementById("denied").style.display = "block";
 	}
