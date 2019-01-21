@@ -21,3 +21,9 @@ body {
 #Welcome_Message {
 	text-decoration: underline;
 }
+#clock {
+	float: right;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+}
