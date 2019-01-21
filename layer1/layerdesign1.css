@@ -19,6 +19,7 @@ body {
 	display: none;
 }
 #Welcome_Message {
+	font-size: 23px;
 	text-decoration: underline;
 }
 #clock {
