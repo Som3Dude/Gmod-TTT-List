@@ -4,7 +4,7 @@ function SendName() {
 	if( (Name.elements[0].value.toLowerCase() == "holy") || (Name.elements[0].value.toLowerCase() == "fenister") || (Name.elements[0].value.toLowerCase() == "manu") ) {
 		document.getElementById("greeting").style.display = "none";
 		document.getElementById("main_screen").style.display = "block";
-		document.getElementById("Welcome_Message").innerHTML = "Welcome "+Name.elements[0].value.charAt(0).toUpperCase() + string.slice(1);
+		document.getElementById("Welcome_Message").innerHTML = "Welcome "+Name.elements[0].value;
 	}
 	else {
 		document.getElementById("denied").style.display = "block";
