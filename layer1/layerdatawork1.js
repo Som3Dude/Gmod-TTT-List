@@ -18,13 +18,13 @@ function updateClock() {
 	var seconds = d.getSeconds();
 	var AMPM = "";
 	if (hours == 0) {
-		ap = " AM"; hours = 12;}
+		AMPM = " AM"; hours = 12;}
 	else if (hours < 12) {
-		ap = " AM";}
+		AMPM = " AM";}
 	else if (hours == 12) {
-		ap = " PM";}
+		AMPM = " PM";}
 	else if (hours > 12) {
-		ap = " PM"; hours -= 12;}
+		AMPM = " PM"; hours -= 12;}
 
-	document.getElementById("clock").innerHTML = "The current time is<br>"+hours+":"+minutes+":"+seconds;
+	document.getElementById("clock").innerHTML = "The current time is"+hours+":"+minutes+":"+seconds+AMPM;
 }
