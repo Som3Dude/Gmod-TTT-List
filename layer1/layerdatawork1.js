@@ -13,10 +13,10 @@ function SendName() {
 			Userclass = "User";
 		}
 		
-		if (Userclass = "Administrator") {
+		if (Userclass == "Administrator") {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+"<br><br><u>Current Tasks:</u><br>-Give out Userpasswords.<br>-Finish Layer1";
 		}
-		if (Userclass = "User") {
+		else if (Userclass == "User") {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.";
 		}
 	}
