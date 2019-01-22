@@ -18,6 +18,12 @@ function SendName() {
 		}
 		else if (Userclass == "User") {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.";
+			if (Name.elements[0].value.toLowerCase() == manu) {
+				document.getElementById("Newpass").innerHTML = "Your new password is:<br>\"01010010 01100001 01100111 01100101\"<br>Please save this somewhere.";
+			}
+			if (Name.elements[0].value.toLowerCase() == fenister) {
+				document.getElementById("Newpass").innerHTML = "Your new password is:<br>\"00111000 01010000 01101100 01111001\"<br>Please save this somewhere.";
+			}
 		}
 	}
 	
