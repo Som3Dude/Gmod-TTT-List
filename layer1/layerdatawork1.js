@@ -17,7 +17,7 @@ function SendName() {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+"<br><br><u>Current Tasks:</u><br>-Give out Userpasswords.<br>-Finish Layer1";
 		}
 		else if (Userclass == "User") {
-			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.";
+			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.<br>&nbsp;";
 			if (Name.elements[0].value.toLowerCase() == "manu") {
 				document.getElementById("Newpass").innerHTML = "Your new password is:<br>\"01010010 01100001 01100111 01100101\"<br>Please save this somewhere.";
 			}
