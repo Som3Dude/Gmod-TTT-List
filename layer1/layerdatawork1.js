@@ -1,5 +1,5 @@
 var Userclass = "Entry Denied";
-function SendName() {
+function SendInfo() {
 	var Name = document.getElementById("NameForm");
 	var Pass = document.getElementById("PassForm");
 	Name.elements[0].value;
