@@ -4,7 +4,7 @@ function SendInfo() {
 	var Pass = document.getElementById("PassForm");
 	Name.elements[0].value;
 	Pass.elements[0].value;
-	if( (Name.elements[0].value.toLowerCase() == "holy") || (Name.elements[0].value.toLowerCase() == "fenister") || (Name.elements[0].value.toLowerCase() == "manu") ) {
+	if( (Name.elements[0].value.toLowerCase() == "holy" && Pass.elements[0].value == "Admin") || (Name.elements[0].value.toLowerCase() == "fenister" && Pass.elements[0].value == "00111000 01010000 01101100 01111001") || (Name.elements[0].value.toLowerCase() == "manu" && Pass.elements[0].value == "01010010 01100001 01100111 01100101") ) {
 		document.getElementById("greeting").style.display = "none";
 		document.getElementById("main_screen").style.display = "block";
 		document.getElementById("Welcome_Message").innerHTML = "Welcome "+Name.elements[0].value;
@@ -21,10 +21,10 @@ function SendInfo() {
 		else if (Userclass == "User") {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.<br>&nbsp;";
 			if (Name.elements[0].value.toLowerCase() == "manu") {
-				document.getElementById("Newpass").innerHTML = "Your new password is:<br>\"01010010 01100001 01100111 01100101\"<br>Please save this somewhere.";
+				document.getElementById("Newpass").innerHTML = "placeholder";
 			}
 			else if (Name.elements[0].value.toLowerCase() == "fenister") {
-				document.getElementById("Newpass").innerHTML = "Your new password is:<br>\"00111000 01010000 01101100 01111001\"<br>Please save this somewhere.";
+				document.getElementById("Newpass").innerHTML = "placeholder";
 			}
 		}
 	}
