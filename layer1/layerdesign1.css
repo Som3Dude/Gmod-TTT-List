@@ -14,10 +14,12 @@ body {
 .Name_Input {
 	width:225px;
 	padding: 4px 4px;
+	border-radius: 10px;
 }
 .Pass_Input {
 	width:225px;
 	padding: 4px 4px;
+	border-radius: 10px;
 }
 
 #main_screen {
