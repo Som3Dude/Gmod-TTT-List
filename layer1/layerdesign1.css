@@ -12,16 +12,16 @@ body {
 	display: none;
 }
 .Name_Input {
-	width:225px;
+	width:300px;
 	padding: 4px 4px;
 	border-radius: 10px;
-	border: 2px #000000;
+	border: 6px #000000;
 }
 .Pass_Input {
-	width:225px;
+	width:300px;
 	padding: 4px 4px;
 	border-radius: 10px;
-	border: 2px #000000;
+	border: 6px #000000;
 }
 
 #main_screen {
