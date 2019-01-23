@@ -1,7 +1,9 @@
 var Userclass = "Entry Denied";
 function SendName() {
 	var Name = document.getElementById("NameForm");
+	var Pass = document.getElementById("PassForm");
 	Name.elements[0].value;
+	Pass.elements[0].value;
 	if( (Name.elements[0].value.toLowerCase() == "holy") || (Name.elements[0].value.toLowerCase() == "fenister") || (Name.elements[0].value.toLowerCase() == "manu") ) {
 		document.getElementById("greeting").style.display = "none";
 		document.getElementById("main_screen").style.display = "block";
