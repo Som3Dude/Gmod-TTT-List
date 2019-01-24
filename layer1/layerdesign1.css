@@ -45,7 +45,7 @@ body {
 #Entrance {
 	width: 200px;
 	height: 45px;
-	border: 8px;
+	border: 8px, solid, #000000;
 	border-radius: 15px;
 	background-color: #1111FF;
 	color: #FFFFFF;
