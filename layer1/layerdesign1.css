@@ -42,3 +42,9 @@ body {
 	display: none;
 	font-size: 20px;
 }
+#Entrance {
+	border:8px;
+	border-radius: 15px;
+	background-color: #1111FF;
+	color: #FFFFFF;
+}
