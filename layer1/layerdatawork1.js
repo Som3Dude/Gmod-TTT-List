@@ -69,3 +69,20 @@ function updateClock() {
 
 	document.getElementById("clock").innerHTML = "The current time is:<br>"+hours+":"+minutes+":"+seconds+AMPM;
 }
+
+function Enter() {
+	document.getElementById("Progressbar11").style.display = "block";
+	var bar1 = 0;
+	var counter1 = setInterval(BootUpBar, 12);
+	var progress1 = 1;
+	function BootUpBar() {
+		if (progress1 >= 340) {
+			clearInterval(counter1);
+			window.open("./layer2/layer2.html","_self")
+		}
+		else {
+			progress1++;
+			bar1.style.width = progress1 + 'px';
+		}
+	}
+}
