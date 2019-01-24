@@ -35,7 +35,7 @@ function SendInfo() {
 	
 	else {
 		document.getElementById("denied").style.display = "block";
-		alert("Error:<br>Username and Password are not Confirmed.");
+		alert("Error: Username and Password are not Confirmed.");
 	}
 }
 setInterval( updateClock, 1000 );
