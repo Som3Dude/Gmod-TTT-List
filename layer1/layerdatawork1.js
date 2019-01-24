@@ -17,7 +17,7 @@ function SendInfo() {
 		
 		if (Userclass == "Administrator") {
 			document.getElementById("Newpass").style.display = "none";
-			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+"<br><br><u>Current Tasks:</u><br>-Give out Userpasswords.<br>-Finish Layer1";
+			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+"<br><br><u>Current Tasks:</u><br>-Give out Userpasswords. -Finished<br>-Finish Layer1<br>-Open Layer2, we need to go deeper.";
 		}
 		else if (Userclass == "User") {
 			document.getElementById("Info").innerHTML = "Hello "+Name.elements[0].value+"<br>you are logged in as "+Userclass+" and will recieve your real Login-Code soon.<br>&nbsp;";
