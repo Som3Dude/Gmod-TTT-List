@@ -37,3 +37,10 @@ body {
 	position: sticky;
 	top: 10px;
 }
+#layer2 {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	display: none;
+	font-size: 20px;
+}
