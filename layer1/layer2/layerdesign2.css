@@ -4,14 +4,22 @@ body {
 }
 
 #loadcircle11 {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 	background-color: #343434;
-	border-radius: 100px;
+	border-radius: 170px;
 	height: 333px;
 	width: 333px;
 	z-index: -1;
 }
 #loadcircle12 {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 	background-color: #8C8C8C;
 	z-index: 1;
-	border-radius: 100px;
+	border-radius: 170px;
 }
