@@ -28,7 +28,7 @@ function start() {
 		if(progress == 300) {
 			message.innerHTML = "Loading...";
 		}
-		if(progress == 329) {
+		if(progress == 327) {
 			check = false;
 		}
 	}
