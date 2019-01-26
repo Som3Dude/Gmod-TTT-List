@@ -28,5 +28,8 @@ body {
 	border-radius: 170px;
 }
 #loadingmessage {
-	text-align: middle;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 }
