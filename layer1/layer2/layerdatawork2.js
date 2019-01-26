@@ -1,6 +1,6 @@
 function start() {
 	var progress = 0;
-	setInterval( loadopen, 250 );
+	setInterval( loadopen, 12 );
 	function loadopen() {
 		var inner = document.getElementById("loadcircle12");
 		var outer = document.getElementById("loadcircle11");
