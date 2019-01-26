@@ -19,7 +19,7 @@ body {
 	position: absolute;
 	margin: auto 0;
 	top: 0;
-	bottom: 0;
+	left: 0;
 	background-color: #8C8C8C;
 	z-index: 1;
 	border-radius: 170px;
