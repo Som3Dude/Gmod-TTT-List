@@ -6,8 +6,6 @@ body {
 #loadcircle11 {
 	position: absolute;
 	margin: 0 auto;
-	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: #343434;
@@ -19,8 +17,6 @@ body {
 #loadcircle12 {
 	position: absolute;
 	margin: 0 auto;
-	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: #8C8C8C;
