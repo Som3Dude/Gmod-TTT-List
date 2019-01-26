@@ -13,6 +13,7 @@ body {
 	height: 333px;
 	width: 333px;
 	z-index: -1;
+	padding: 7px;
 }
 #loadcircle12 {
 	position: absolute;
