@@ -23,3 +23,6 @@ body {
 	z-index: 1;
 	border-radius: 170px;
 }
+#loadingmessage {
+	text-align: middle;
+}
