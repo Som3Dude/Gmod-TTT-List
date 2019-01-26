@@ -1,3 +1,9 @@
 body {
 	background-color: #000000;
 }
+
+#loadcircle11 {
+	background-color: #343434;
+	height: 333px;
+	width: 333px;
+}
