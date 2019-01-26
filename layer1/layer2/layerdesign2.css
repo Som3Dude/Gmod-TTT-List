@@ -5,7 +5,7 @@ body {
 
 #loadcircle11 {
 	position: absolute;
-	margin: 0 auto;
+	margin: 0 0;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -18,7 +18,7 @@ body {
 }
 #loadcircle12 {
 	position: absolute;
-	margin: 0 auto;
+	margin: 0 0;
 	top: 0;
 	bottom: 0;
 	left: 0;
