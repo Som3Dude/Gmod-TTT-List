@@ -1,137 +1,181 @@
 <!DOCTYPE html>
+<html>
 <head>
-	<title>Gmod-TTT Addon List</title>
-	
-	<script src="./Datawork.js"></script> 
-	<link rel="stylesheet" type="text/css" href="./Design.css"/>
+  <title>TTT Addon List</title>
+  <meta charset="UTF-8">
+  <script src="./func.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
 
 <body>
-	<div id="Logo">
-		<img src="https://cdn.discordapp.com/attachments/506162390786637836/533660312138940418/ttt.png">
+  <div class="List" id="MapList">
+  	<div class="ListHeader">Maps</div>
+    <div class="ListSpacer"></div>
+    <div class="InnerList" id="MapInnerList">
+        <div class="ListItem" id="1112643697">
+          Mystery Shack</div>
+    		<div class="ListItem" id="169342118">
+          Casino</div>
+    		<div class="ListItem" id="1616801468">
+          Aztec Shrine</div>
+    		<div class="ListItem" id="761923626">
+          Zelda Outset Island</div>
+    		<div class="ListItem" id="118937144">
+          Zelda Kakariko</div>
+    		<div class="ListItem" id="1524329928">
+          GB Adventure</div>
+    		<div class="ListItem" id="446623394">
+          Ratskitchen</div>
+    		<div class="ListItem" id="389346280">
+          Minecraft Haven</div>
+    		<div class="ListItem" id="106498411">
+          Minecraft Skyislands</div>
+    		<div class="ListItem" id="159321088">
+          Minecraft B5</div>
+    		<div class="ListItem" id="844793292">
+          Minecraft Snowden</div>
+    		<div class="ListItem" id="652423997">
+          Minecraft Craftroom</div>
+    		<div class="ListItem" id="295897079">
+          Lego</div>
+    		<div class="ListItem" id="183797802">
+          Island</div>
+    		<div class="ListItem" id="185635263">
+          Scar Island</div>
+    		<div class="ListItem" id="719634946">
+          Undertale MTT Resort</div>
+    		<div class="ListItem" id="1293781407">
+          Waterworld Remastered</div>
+    		<div class="ListItem" id="1388481216">
+          Pool Party</div>
+    		<div class="ListItem" id="1270473227">
+          Neptunia</div>
+    		<div class="ListItem" id="1475589106">
+          Bikini Bottom</div>
+    		<div class="ListItem" id="177663377">
+          Stargate</div>
+    		<div class="ListItem" id="750640234">
+          Tardis</div>
+    		<div class="ListItem" id="1419089916">
+          Skybreak</div>
+    		<div class="ListItem" id="1631864277">
+          Oilrig</div>
+    		<div class="ListItem" id="767284725">
+          Spooky BBQ Restaurant</div>
+    		<div class="ListItem" id="1615740622">
+          Black Mesa East 2019</div>
+      </div>
+  </div>
+  
+  <div class="HorizDivider"></div>
+  
+  <div class="List" id="WeaponList">
+  	<div class="ListHeader">Weapons</div>
+    <div class="ListSpacer"></div>
+    <div class="InnerList" id="WeaponInnerList">
+        <div class="ListItem" id="253736787">
+          G3SG1</div>
+    		<div class="ListItem" id="307345118">
+          Shotgun Pack</div>
+    		<div class="ListItem" id="337050692">
+          Famas</div>
+    		<div class="ListItem" id="337055385">
+          AUG H-Bar</div>
+    		<div class="ListItem" id="375675017">
+          Tec9</div>
+    		<div class="ListItem" id="371364003">
+          PP19 Bizon</div>
+    		<div class="ListItem" id="371363909">
+          Kriss Vector</div>
+    		<div class="ListItem" id="337050940">
+          Galil</div>
+    		<div class="ListItem" id="676372924">
+          MP40</div>
+        <div class="ListItem" id="253736787">
+          G3SG1</div>
+    		<div class="ListItem" id="307345118">
+          Shotgun Pack</div>
+    		<div class="ListItem" id="337050692">
+          Famas</div>
+    		<div class="ListItem" id="337055385">
+          AUG H-Bar</div>
+    		<div class="ListItem" id="375675017">
+          Tec9</div>
+    		<div class="ListItem" id="371364003">
+          PP19 Bizon</div>
+    		<div class="ListItem" id="371363909">
+          Kriss Vector</div>
+    		<div class="ListItem" id="337050940">
+          Galil</div>
+    		<div class="ListItem" id="676372924">
+          MP40</div>
+        <div class="ListItem" id="162581348">
+          Defibrilator Traitor</div>
+        <div class="ListItem" id="299479443">
+          Defibrilator Detective</div>
+    		<div class="ListItem" id="323013982">
+          Orbital friendship Beam</div>
+    		<div class="ListItem" id="284418937">
+          Jetpack</div>
+    		<div class="ListItem" id="922459145">
+          Boom Body</div>
+    		<div class="ListItem" id="709130154">
+          Cannibalism</div>
+    		<div class="ListItem" id="307624986">
+          Heal Pack</div>
+    		<div class="ListItem" id="794651430">
+          Thriller Dart</div>
+    		<div class="ListItem" id="662342819">
+          Randomat</div>
+    		<div class="ListItem" id="671603913">
+          Space-Time Manipulator</div>
+    		<div class="ListItem" id="302956892">
+          Ray-Gun</div>
+    		<div class="ListItem" id="646690198">
+          Dupstep-Gun</div>
+    		<div class="ListItem" id="672173225">
+          Second Chance</div>
+    		<div class="ListItem" id="1458107168">
+          Melon Launcher</div>
+    		<div class="ListItem" id="922355426">
+          Melon Mine</div>
+    		<div class="ListItem" id="937252542">
+          Thomas (Trump Version)</div>
+    		<div class="ListItem" id="810154456">
+          Dead Ringer</div>
+    		<div class="ListItem" id="620936792">
+          Homing Pigeon</div>
+    		<div class="ListItem" id="922334896">
+          Chicken</div>
+    		<div class="ListItem" id="648957314">
+          Homerun Bat</div>
+    		<div class="ListItem" id="294444033">
+          Jihad Bomb</div>
+      </div>
 	</div>
-	
-	<div id="Maps">
-		<h2><u>
-			Maps
-		</u></h2>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1112643697">Mystery Shack</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=169342118">Casino</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1616801468">Aztec Shrine</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=761923626">Zelda Outset Island</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=118937144">Zelda Kakariko</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1524329928">GB Adventure</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=446623394">Ratskitchen</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=389346280">Minecraft Haven</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=106498411">Minecraft Skyislands</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=159321088">Minecraft B5</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=844793292">Minecraft Snowden</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=652423997">Minecraft Craftroom</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=295897079">Lego</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=183797802">Island</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=185635263">Scar Island</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=719634946">Undertale MTT Resort</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1293781407">Waterworld Remastered</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1388481216">Pool Party</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1270473227">Neptunia</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1475589106">Bikini Bottom</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=177663377">Stargate</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=750640234">Tardis</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1419089916">Skybreak</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1631864277">Oilrig</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=767284725">Spooky BBQ Restaurant</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1615740622">Black Mesa East 2019</a><br>
+  
+  <div class="HorizDivider"></div>
+  
+  <div class="List" id="OtherList">
+  	<div class="ListHeader">Other</div>
+    <div class="ListSpacer"></div>
+    <div class="InnerList" id="OtherInnerList">
+      <div class="ListItem" id="151583504">
+        MapVote</div>
+  		<div class="ListItem" id="250792180">
+        PatchPlay</div>
+  		<div class="ListItem" id="933056549">
+        Sprint</div>
+    </div>
 	</div>
-	
-	<div id="Weapons">
-		<h2><u>
-			Weapons
-		</u></h2>
-		<h3>
-			General
-		</h3>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=253736787">G3SG1</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=307345118">Shotgun Pack</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=337050692">Famas</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=337055385">AUG H-Bar</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=375675017">Tec9</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=371364003">PP19 Bizon</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=371363909">Kriss Vector</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=337050940">Galil</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=676372924">MP40</a><br>
-		<h3>
-			Traitor/Detective
-		</h3>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=162581348">Defibrilator Traitor</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=299479443">Defibrilator Detective</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=323013982">Orbital friendship Beam</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=284418937">Jetpack</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=922459145">Boom Body</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=709130154">Cannibalism</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=307624986">Heal Pack</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=794651430">Thriller Dart</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=662342819">Randomat</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=671603913">Space-Time Manipulator</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=302956892">Ray-Gun</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=646690198">Dupstep-Gun</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=672173225">Second Chance</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1458107168">Melon Launcher</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=922355426">Melon Mine</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=937252542">Thomas (Trump Version)</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=810154456">Dead Ringer</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=620936792">Homing Pigeon</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=922334896">Chicken</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=648957314">Homerun Bat</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=294444033">Jihad Bomb</a><br>
-	</div>
-	
-	<div id="Other">
-		<h2><u>
-			Other
-		</u></h2>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=151583504">MapVote</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=250792180">PatchPlay</a><br>
-		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=933056549">Sprint</a><br>
-	</div>
-	
-	<div id="secret">
-		<div id="secret_text">
-			<input type="button" class="BootUp_Button" onclick="BootUp()" value="Oh?">
-		</div>
-	</div>
-	
-	<div id="Calculator">
-		<div id="buttons">
-			Ammount of Players:
-			<input type="button" onclick="PlayerOne()" value="1">
-			<input type="button" onclick="PlayerTwo()" value="2">
-			<input type="button" onclick="PlayerThree()" value="3">
-			<input type="button" onclick="PlayerFour()" value="4">
-			<input type="button" onclick="PlayerFive()" value="5">
-			<input type="button" onclick="PlayerSix()" value="6">
-			<input type="button" onclick="PlayerSeven()" value="7">
-			<input type="button" onclick="PlayerEight()" value="8">
-		</div>
-		
-		<div id="detectives">
-			Detectives:
-		</div>
-		
-		<div id="traitors">
-			Traitors:
-		</div>
-		
-		<div id="innocents">
-			Innocents:
-		</div>
-	</div>
-	
-	<div id="nonmain">
-		<div id="Bar1Outer">
-			<div id="Bar1Inner"></div>
-		</div>
-		<div id="Screen">
-			Stop Reading this!
-		</div>
-	</div>
+  
+  <div class="WeirdHeightHelper"></div>
+  <div class="VertDivider"></div>
+  
+  <div class="CalcContainer">
+    <div class="ListHeader">Role-Calculator</div>
+    W.I.P.
+  </div>
 </body>
+
+</html>
