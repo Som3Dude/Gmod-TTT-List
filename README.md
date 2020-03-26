@@ -1,5 +1,6 @@
 # Gmod-TTT-List
 A TTT playlist for Garry's Mod
-We use this for our Garry's Mod TTT rounds, just some basic addon-list.
+This is a basic Addon-List, nothing special.
 Links are red when not visited, green if you have them already.
-And a new thing being the calculator for our settings.
+Also includes a calculator for roles.
+Rework started on 3/26/2020
