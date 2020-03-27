@@ -174,7 +174,20 @@
   
   <div class="CalcContainer">
     <div class="ListHeader">Role-Calculator</div>
-    W.I.P.
+    <div class="CalcBox">
+      <u><span class="Inno">Innocent</span></u><br>
+      <u><span class="Traitor">Traitor</span></u><br>
+      <u><span class="Detec">Detective</span></u>
+    </div>
+    <div class="CalcBox">
+      <span class="Inno" id="InnoNum">NaN</span><br>
+      <span class="Traitor" id="TraitorNum">NaN</span><br>
+      <span class="Detec" id="DetecNum">NaN</span>
+    </div>
+    <div class="CalcBox1">
+      <div class="PlayerHeader">Players:</div>
+      <input id="PlayerNum" type="text" value="3" maxlength="2" onkeyup="updateCalculator()" disabled>
+  </div>
   </div>
 </body>
 

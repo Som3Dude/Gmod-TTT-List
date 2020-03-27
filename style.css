@@ -43,6 +43,7 @@ body {
   line-height: 23px;
   border-radius: 15px;
   background-color: var(--BGPrimary);
+  margin-bottom: 3px;
 }
 .ListItem:hover {
   background-color: var(--Hover);
@@ -52,9 +53,42 @@ body {
 
 .CalcContainer {
   height: 100px;
-  width: 50%;
+  width: 330px;
   padding: 5px;
   background-color: var(--MenuPrimary);
+}
+.CalcBox {
+  float: left;
+  padding: 7px;
+  width: 85px;
+}
+.CalcBox1 {
+  float: left;
+  padding: 7px;
+}
+.PlayerHeader {
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  margin-right: 5px;
+}
+#PlayerNum {
+  font-size: 18px;
+  width: 25px;
+  height: 20px;
+  background: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.Inno {
+  color: #0f7a0d;
+}
+.Traitor {
+  color: #700813;
+}
+.Detec {
+  color: #001559;
 }
 
 
@@ -65,7 +99,7 @@ body {
 .HorizDivider {
   position: relative;
   float: left;
-  width: 10px;
+  width: 2%;
   height: 100px;
 }
 .VertDivider {
