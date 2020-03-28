@@ -12,7 +12,6 @@ function startUp() {
 }
 
 var mapList = [
-  `Doom|548149342`,
   `Casino|169342118`,
   `Mystery Shack|1112643697`,
   `Aztec Shrine|1616801468`,
@@ -42,7 +41,7 @@ var weaponList = [
   `Golden Revolver|974806391`,
   `Cloaking Device|1802717950`,
   `Holster Push|1969872846`,
-  `Homing Pigeon V2|1894982220`,
+  `Homing Pigeon|922901423`,
   `Friendship Beam V2|1909269337`,
   `Flashbang|1972213885`,
   `Melon Mine V2|1629914760`,
@@ -56,7 +55,6 @@ var weaponList = [
   `SATM|671603913`,
   `G3SG1-Sniper|253736787`,
   `Gauss Rifle|646754302`,
-  `Dead Ringer|810154456`,
   `Jihad Bomb|294444033`,
   `Homerun Bat|648957314`,
   `Chicken|922334896`,
