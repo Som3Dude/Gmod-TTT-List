@@ -52,19 +52,27 @@ body {
 
 
 .CalcContainer {
+  float: left;
   height: 100px;
-  width: 330px;
+  width: 45%;
   padding: 5px;
   background-color: var(--MenuPrimary);
+  margin-right: 4%;
 }
 .CalcBox {
   float: left;
   padding: 7px;
-  width: 85px;
+  width: 30%;
 }
 .CalcBox1 {
   float: left;
   padding: 7px;
+  width: 6%;
+}
+.CalcBox2 {
+  float: left;
+  padding: 7px;
+  width: 35%;
 }
 .PlayerHeader {
   font-weight: bold;
@@ -77,8 +85,64 @@ body {
   width: 25px;
   height: 20px;
   background: none;
-  cursor: not-allowed;
-  opacity: 0.6;
+}
+
+
+.CollectionContainer {
+  float: left;
+  width: 46%;
+  height: 100px;
+  padding: 5px;
+  background-color: var(--MenuPrimary);
+  display: block;
+  position: relative;
+  background-color: #273b52;
+  margin-bottom: 4px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 0px rgba(20,20,20,0.75);
+  color: #ebebeb;
+  text-decoration: none;
+  text-align: left;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  font-size: 14px;
+}
+.CollectionImageContainer {
+  height: 100px;
+  width: 100px;
+  min-height: 100px;
+  margin-bottom: 0px;
+  position: relative;
+  float: left;
+  max-width: 31%;
+  margin-right: 2%;
+  cursor: pointer;
+}
+.CollectionImageHolder {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #000000;
+}
+.CollectionImage {
+  width: 100px;
+  max-height: 100px;
+}
+.CollectionDetails {
+  padding-top: 5px;
+  margin-left: 110px;
+}
+.CollectionTitle {
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.CollectionDescription {
+  padding-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #8F98A0;
 }
 
 .Inno {
