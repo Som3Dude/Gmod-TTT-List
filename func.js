@@ -12,6 +12,7 @@ function startUp() {
 }
 
 var mapList = [
+  `Doom|548149342`,
   `Casino|169342118`,
   `Mystery Shack|1112643697`,
   `Aztec Shrine|1616801468`,
@@ -70,7 +71,6 @@ var weaponList = [
   `Kriss Vector|371363909`,
   `PP19 Bizon|371364003`,
   `AUG H-Bar|337055385`,
-  `Kriss Vector|371363909`,
   `Famas|337050692`,
   `Shotgun Pack|307345118`
 ];
