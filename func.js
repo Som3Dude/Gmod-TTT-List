@@ -12,6 +12,8 @@ function startUp() {
 }
 
 var mapList = [
+  `Airbus|253297309`,
+  `Teenroom|141103402`,
   `Casino|169342118`,
   `Mystery Shack|1112643697`,
   `Aztec Shrine|1616801468`,
@@ -38,19 +40,18 @@ var mapList = [
 ];
 var weaponList = [
   `Pianogun|1839618396`,
-  `Golden Revolver|974806391`,
-  `Cloaking Device|1802717950`,
+  `Golden Deagle|253737047`,
   `Holster Push|1969872846`,
-  `Homing Pigeon|922901423`,
+  `Homing Pigeon|620936792`,
   `Friendship Beam V2|1909269337`,
   `Flashbang|1972213885`,
   `Melon Mine V2|1629914760`,
   `Juggernaut Suit|1640512667`,
   `Glider|1841223226`,
-  `Defibrillator V2|1892938575`,
+  `Traitor Defibrillator V2|1892938575`,
+  `Detective Defibrillator|785796753`,
   `Thomas (Trump) V2|1943354723`,
   `Throwable Crowbar|1961869471`,
-  `Dance Wand|1913651111`,
   `Microwave|514778608`,
   `SATM|671603913`,
   `G3SG1-Sniper|253736787`,
@@ -73,6 +74,7 @@ var weaponList = [
   `Shotgun Pack|307345118`
 ];
 var otherList = [
+  `ULX CMD Extension|1362430347`,
   `TTT-Core|1357204556`,
   `ULib|557962238`,
   `ULX|557962280`,
