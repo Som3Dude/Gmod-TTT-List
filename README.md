@@ -1,7 +1,9 @@
-# Gmod-TTT-List
-A TTT playlist for Garry's Mod
-This is a basic Addon-List, nothing special.
-Links are red when not visited, green if you have them already.
-Also includes a calculator for roles.
-
-Latest Update on 3/26/2020
+# GMod Addon-List
+A website to list addons for [GMod](https://store.steampowered.com/app/4000/Garrys_Mod/).
+### Includes:
+- Sorted addon lists
+- A role-calculator
+- A Steam collection
+### To-Do:
+- Option to switch addons for other games
+- Color indicators for owned addons

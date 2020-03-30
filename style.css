@@ -2,8 +2,8 @@
   --BGPrimary:   rgba(224,224,224,1.0);
   --MenuPrimary: rgba(192,192,192,1.0);
   --TextPrimary: rgba(18,18,18,1.0);
-  --Spacer: rgba(98,96,143,1.0);
-  --Hover: rgba(208,208,208,1.0);
+  --Spacer:      rgba(98,96,143,1.0);
+  --Hover:       rgba(208,208,208,1.0);
 }
 
 body {

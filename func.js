@@ -167,8 +167,6 @@ function updateCalculator() {
     } else {
       if(ammountPlayers >= 5){ammountDetective = 1;}else{ammountDetective = 0;}
       ammountTraitor = Math.trunc(ammountPlayers * 0.4);
-      if(ammountPlayers == 7){ammountTraitor = 3;}
-      if(ammountTraitor >= 5){ammountTraitor = 4;}
       
       ammountInnocent = (ammountPlayers - ammountTraitor) - ammountDetective;
       
