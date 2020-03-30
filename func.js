@@ -31,18 +31,23 @@ var mapList = [
   `Waterworld Remaster|1293781407`,
   `Pool Party|1388481216`,
   `Neptunia|1270473227`,
-  `Bikini Bottom|1475589106`,
   `Stargate|177663377`,
-  `Tardis|750640234`,
   `Skybreak|1419089916`,
   `Oilrig|1631864277`,
-  `Spooky BBQ|767284725`
+  `Spooky BBQ|767284725`,
+  `Clue (SE) 2017|971786142`,
+  `Vault|422801063`,
+  `Nuclear Power V4|1198663315`,
+  `Simple|1812199726`,
+  `Goldenplix Prison|500968461`,
+  `Tilted Towers|1490141331`,
+  `FEZ Village|466322841`,
+  `SCP Site-19|961750011`
 ];
 var weaponList = [
   `Pianogun|1839618396`,
   `Golden Deagle|253737047`,
   `Holster Push|1969872846`,
-  `Homing Pigeon|620936792`,
   `Friendship Beam V2|1909269337`,
   `Flashbang|1972213885`,
   `Melon Mine V2|1629914760`,
@@ -50,7 +55,7 @@ var weaponList = [
   `Glider|1841223226`,
   `Traitor Defibrillator V2|1892938575`,
   `Detective Defibrillator|785796753`,
-  `Thomas (Trump) V2|1943354723`,
+  `Thomas V2|2024902834`,
   `Throwable Crowbar|1961869471`,
   `Microwave|514778608`,
   `SATM|671603913`,
@@ -62,16 +67,29 @@ var weaponList = [
   `Second Chance|672173225`,
   `Dupstep-Gun|646690198`,
   `Randomat|662342819`,
+  `Evil Randomat|1917064838`,
   `Cannibalism|709130154`,
   `Boom Body|922459145`,
-  `Jetpack|284418937`,
+  `Jetpack V2|1735229517`,
   `MP40|676372924`,
   `Galil|337050940`,
   `Kriss Vector|371363909`,
   `PP19 Bizon|371364003`,
   `AUG H-Bar|337055385`,
   `Famas|337050692`,
-  `Shotgun Pack|307345118`
+  `Shotgun Pack|307345118`,
+  `Beartrap|1641605106`,
+  `Minifier|1896918348`,
+  `Speedrun|1805798115`,
+  `Dancegun|18962401222`,
+  `Deathfaker|1473581448`,
+  `Portal Gun|697845903`,
+  `P90|253737433`,
+  `Heavy Sniper|862815768`,
+  `Bruh Bunker|1796374263`,
+  `Silenced Scout|1249178954`,
+  `Camera|2031255788`,
+  `Grapple Hook|874699750`
 ];
 var otherList = [
   `ULX CMD Extension|1362430347`,
@@ -86,7 +104,10 @@ var otherList = [
   `Buy Notifications|1117144118`,
   `Legs|112806637`,
   `Meno Utilities|1895681986`,
-  `MapIcon Fix|785456066`
+  `MapIcon Fix|785456066`,
+  `Octagonal Hud|1795267605`,
+  `Weapon Stats|200203104`,
+  `Binocular Model|440824514`
 ];
 
 var ListItem = function (name, id) {
